@@ -22,3 +22,4 @@ order2 = Order(customer_id=customer2.id, item_id=item3.id, status="served")
 session.add_all([order1, order2])
 session.commit()
 
+print("Seeded database successfully!")

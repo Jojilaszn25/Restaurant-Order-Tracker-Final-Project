@@ -1,5 +1,5 @@
 from sqlalchemy import Column, Integer, String, Float
-from lib.models import Base
+from . import Base
 
 class MenuItem(Base):
     __tablename__ = 'menu_items'
