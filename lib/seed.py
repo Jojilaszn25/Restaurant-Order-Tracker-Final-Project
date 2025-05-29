@@ -6,8 +6,8 @@ from lib.models.order import Order
 Base.metadata.drop_all(engine)
 Base.metadata.create_all(engine)
 
-customer1 = Customer(name="Alice Johnson", phone="123-456-7890")
-customer2 = Customer(name="Bob Smith", phone="987-654-3210")
+customer1 = Customer(name="Florian Wirtz", phone="123-456-7890")
+customer2 = Customer(name="Desire Doue", phone="987-654-3210`")
 
 item1 = MenuItem(name="Cheeseburger", price=8.99)
 item2 = MenuItem(name="Veggie Pizza", price=10.50)
